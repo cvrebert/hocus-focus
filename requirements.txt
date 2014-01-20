@@ -1,0 +1,6 @@
+Flask==0.10.1
+SQLAlchemy==0.9.1
+Flask-SQLAlchemy==1.0
+psycopg2==2.5.2
+gunicorn==18.0
+Flask-SeaSurf==0.1.22
