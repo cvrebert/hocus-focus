@@ -2,7 +2,7 @@
 from __future__ import absolute_import, unicode_literals, division, print_function
 
 from flask import current_app, request, redirect, url_for, Blueprint
-from sanction.client import Client
+from sanction import Client
 
 from hocus_focus.csrf import csrf
 
