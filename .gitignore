@@ -1,2 +1,9 @@
 *.pyc
 .env
+.coverage
+nosetests.xml
+.tox
+pip-log.txt
+__pycache__
+*.egg
+*.egg-info
