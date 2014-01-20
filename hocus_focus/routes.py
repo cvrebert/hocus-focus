@@ -29,12 +29,13 @@ def adapt_oauth_state_to_normal_csrf():
     view_func = current_app.view_functions.get(request.endpoint)
     if view_func is not finish_github_login:
         return
-    request.method = b'POST'  # pretend it's not GET so that it becomes CSRF-protected
+    # We manipulate stuff at the WSGI level here because the Werkzeug equivalents are annoyingly immutable.
+    request.environ[b'REQUEST_METHOD'] = b'POST'  # pretend it's not GET so that it becomes CSRF-protected
     try:
-        csrf_token = request.args.pop('state')
+        csrf_token = request.args['state']
     except KeyError:
         return
-    request.headers[csrf._csrf_header_name] = csrf_token
+    request.environ[b'HTTP_' + csrf._csrf_header_name.encode('ascii')] = csrf_token
 
 
 @oauth.route('/login/')
@@ -56,3 +57,5 @@ def finish_github_login():
     c.request_token(code=request.args['code'], redirect_uri=OAUTH_REDIRECT_URI)
     user_data = c.request('/user')
     print("USER:", repr(user_data))
+    return "Hello person!"
+    # 'name', 'login', 'avatar_url'
