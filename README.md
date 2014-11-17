@@ -8,3 +8,4 @@ CSS regression test review tool for Bootstrap
 * [GraphicsMagick `compare`](http://www.graphicsmagick.org/compare.html) to compare the screenshots and output visual diffs
 * [Flask](http://flask.pocoo.org/) web app to review diffs and approve intentional changes
 * [Flask-OAuthlib](https://flask-oauthlib.readthedocs.org/) for GitHub-based login
+* Some Python GitHub API library to post issues to the issue tracker when there are differences
