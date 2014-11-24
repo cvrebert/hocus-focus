@@ -9,3 +9,9 @@ CSS regression test review tool for Bootstrap
 * [Flask](http://flask.pocoo.org/) web app to review diffs and approve intentional changes
 * [Flask-OAuthlib](https://flask-oauthlib.readthedocs.org/) for GitHub-based login
 * Some Python GitHub API library to post issues to the issue tracker when there are differences
+
+## schema sketch
+* result: id, run_id, platform_id, testcase_name, filename
+* run: id, timestamp
+* platform: os, browser (both include optional version portion)
+* reference: id, result_id, timestamp, user
