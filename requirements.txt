@@ -4,4 +4,6 @@ Flask-SQLAlchemy==1.0
 psycopg2==2.5.2
 gunicorn==18.0
 Flask-SeaSurf==0.1.22
-sanction==0.4.1
+Flask-OAuthlib==0.8.0
+lxml==3.4.1
+github3.py==0.9.3
