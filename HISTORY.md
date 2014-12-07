@@ -20,6 +20,8 @@ Non-requirements:
 
 Prior art (and boy, is there a lot of it!)
 
+* Mogotest
+  * Went out of business
 * [SiteEffect](http://siteeffect.io/)
   * No public source code is yet available; [GitHub repo](https://github.com/ti2m/siteeffect) is a stub
 * [Bugsnag's unnamed Selenium-based tool](https://bugsnag.com/blog/implementing-a-visual-css-testing-framework)
@@ -55,6 +57,9 @@ Prior art (and boy, is there a lot of it!)
   * PhantomJS-based, *but* also offers "Diff My Images" option to import images taken from other tools
   * Offers web-based test result viewer and reference/baseline/norm management workflow
   * No explicit cross-browser support in its data model
+* [Applitools Eyes](http://applitools.com)
+  * Smart visual diff algorithm
+  * You provide it the images yourself
 * [PhantomJS](http://phantomjs.org)-related tools
   * Included for completeness, but these fail our cross-browser + cross-OS requirements
   * [CasperJS](http://casperjs.org)
