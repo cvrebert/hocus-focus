@@ -67,3 +67,5 @@ Prior art (and boy, is there a lot of it!)
   * [BackstopJS](http://garris.github.io/BackstopJS/)
     * CasperJS-based CSS regression testing of "responsive" webpages
     * Includes web app to review test results (and manage reference/baseline/norm screenshots?) 
+  * [grunt-photobox](https://github.com/stefanjudis/grunt-photobox)
+    * PhantomJS-based screenshot-taker and web-based visual diff review tool
