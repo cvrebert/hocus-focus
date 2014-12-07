@@ -62,6 +62,8 @@ Prior art (and boy, is there a lot of it!)
     * No higher level tooling around screenshots, just a "take a screenshot" API
   * [SlimerJS](http://slimerjs.org)
     * Firefox/Gecko equivalent of PhantomJS
+  * [TrifleJS](https://github.com/sdesalas/trifleJS)
+    * Internet Explorer equivalent of PhantomJS
   * [PhantomCSS](https://github.com/Huddle/PhantomCSS)
     * CasperJS-based CSS regression testing
   * [Wraith](https://github.com/bbc-news/wraith)
