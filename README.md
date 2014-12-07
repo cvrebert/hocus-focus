@@ -1,7 +1,7 @@
 hocus-focus
 ===========
 
-CSS regression test review tool for Bootstrap
+CSS regression testing tool for Bootstrap
 
 ## How it works
 * [grunt-sauce-screenshots](https://github.com/cvrebert/grunt-sauce-screenshots) to take screenshots in various browsers
