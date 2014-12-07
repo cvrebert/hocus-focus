@@ -60,6 +60,11 @@ Prior art (and boy, is there a lot of it!)
 * [Applitools Eyes](http://applitools.com)
   * Smart visual diff algorithm
   * You provide it the images yourself
+* [WebdriverCSS](https://github.com/webdriverio/webdrivercss)
+  * Supports Selenium
+  * Supports setting viewport dimensions
+  * [WebdriverCSS Adminpanel](https://github.com/webdriverio/webdrivercss-adminpanel)
+    * Web UI to view test results and manage reference/baseline/norm screenshots
 * [PhantomJS](http://phantomjs.org)-related tools
   * Included for completeness, but these fail our cross-browser + cross-OS requirements
   * [CasperJS](http://casperjs.org)
