@@ -65,6 +65,8 @@ Prior art (and boy, is there a lot of it!)
   * Supports setting viewport dimensions
   * [WebdriverCSS Adminpanel](https://github.com/webdriverio/webdrivercss-adminpanel)
     * Web UI to view test results and manage reference/baseline/norm screenshots
+* [Wraith-Selenium](https://github.com/andrewccadman/wraith-selenium)
+  * A Wraith fork that supports Selenium instead of CasperJS
 * [PhantomJS](http://phantomjs.org)-related tools
   * Included for completeness, but these fail our cross-browser + cross-OS requirements
   * [CasperJS](http://casperjs.org)
