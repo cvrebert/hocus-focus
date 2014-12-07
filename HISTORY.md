@@ -31,6 +31,9 @@ Prior art (and boy, is there a lot of it!)
 * [DalekJS](http://dalekjs.com)
   * Seems geared more towards functional testing
   * Doesn't seem to have any integrated workflow for management of reference/baseline/norm screenshots
+* [CSS Critic](https://github.com/cburgmer/csscritic)
+  * Supports Firefox and PhantomJS
+  * Has a review workflow
 * [Needle](https://github.com/bfirsh/needle)
   * Somewhat promising. Offers unit tests with screenshot equality assertions.
   * Supports remote Selenium.
