@@ -39,9 +39,16 @@ Prior art (and boy, is there a lot of it!)
     * Not clear whether it supports updating a single reference screenshot at a time, rather than everything at once.
     * Reference/baseline/norm screenshot update workflow doesn't seem quite suited to Bootstrap's particular situation
   * Visual diffs require [Perceptual Image Diff](http://sourceforge.net/p/pdiff/code/HEAD/tree/) tool whose maintenance status is unclear
+* [Browsershots](http://browsershots.org)
+  * Uses virtual cluster of volunteers' computers to take screenshots in various browsers/OSes
+  * Throughput/capacity level is unclear, and we'd be asking for a \*lot\* of screenshots
+  * No workflow or higher-level tooling, but it exposes an API which might allow building such workflow tooling
 * [CrossBrowserTesting.com](http://crossbrowsertesting.com)
-  * Hosted solution
+  * Hosted solution with integrated review workflow
   * Pay per minute of test
+* [Depicted / dpxdt](https://github.com/bslatkin/dpxdt)
+  * PhantomJS-based, *but* also offers "Diff My Images" option to import images taken from other tools
+  * Offers web-based test result viewer and reference/baseline/norm management workflow
 * [PhantomJS](http://phantomjs.org)-related tools
   * Included for completeness, but these fail our cross-browser + cross-OS requirements
   * [CasperJS](http://casperjs.org)
