@@ -22,6 +22,8 @@ Prior art (and boy, is there a lot of it!)
 
 * [SiteEffect](http://siteeffect.io/)
   * No public source code is yet available; [GitHub repo](https://github.com/ti2m/siteeffect) is a stub
+* [Bugsnag's unnamed Selenium-based tool](https://bugsnag.com/blog/implementing-a-visual-css-testing-framework)
+  * Not currently publicly available at all
 * [Huxley](https://github.com/facebookarchive/huxley)
   * Has been abandoned by Facebook; is no longer maintained
   * Was geared towards testing interactions with JavaScript widgets, as opposed to testing of static webpages
