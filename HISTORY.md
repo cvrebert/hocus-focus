@@ -39,6 +39,9 @@ Prior art (and boy, is there a lot of it!)
     * Not clear whether it supports updating a single reference screenshot at a time, rather than everything at once.
     * Reference/baseline/norm screenshot update workflow doesn't seem quite suited to Bootstrap's particular situation
   * Visual diffs require [Perceptual Image Diff](http://sourceforge.net/p/pdiff/code/HEAD/tree/) tool whose maintenance status is unclear
+* [CrossBrowserTesting.com](http://crossbrowsertesting.com)
+  * Hosted solution
+  * Pay per minute of test
 * [PhantomJS](http://phantomjs.org)-related tools
   * Included for completeness, but these fail our cross-browser + cross-OS requirements
   * [CasperJS](http://casperjs.org)
@@ -48,3 +51,8 @@ Prior art (and boy, is there a lot of it!)
     * Firefox/Gecko equivalent of PhantomJS
   * [PhantomCSS](https://github.com/Huddle/PhantomCSS)
     * CasperJS-based CSS regression testing
+  * [Wraith](https://github.com/bbc-news/wraith)
+    * CasperJS-based CSS regression testing
+  * [BackstopJS](http://garris.github.io/BackstopJS/)
+    * CasperJS-based CSS regression testing of "responsive" webpages
+    * Includes web app to review test results (and manage reference/baseline/norm screenshots?) 
