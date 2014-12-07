@@ -49,6 +49,7 @@ Prior art (and boy, is there a lot of it!)
 * [Depicted / dpxdt](https://github.com/bslatkin/dpxdt)
   * PhantomJS-based, *but* also offers "Diff My Images" option to import images taken from other tools
   * Offers web-based test result viewer and reference/baseline/norm management workflow
+  * No explicit cross-browser support in its data model
 * [PhantomJS](http://phantomjs.org)-related tools
   * Included for completeness, but these fail our cross-browser + cross-OS requirements
   * [CasperJS](http://casperjs.org)
